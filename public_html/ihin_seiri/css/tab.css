@@ -1,0 +1,426 @@
+@charset "UTF-8";
+/* CSS Document */
+/*タブレット用スタイル*/
+@media (min-width: 768px) and (max-width: 959px) {
+  /*
+セクション間余白
+----------------------------------------------------------- */
+  section {
+    padding: 60px 0;
+  }
+  footer {
+    padding: 30px 0;
+  }
+  /*
+はみ出し画像中央
+----------------------------------------------------------- */
+  .wic1 img {
+    width: 1600px;
+    max-width: 1600px;
+  }
+  .wic1 {
+    margin-left: calc(50% - 800px);
+  }
+  .wic2 img {
+    width: 1000px;
+    max-width: 1000px;
+  }
+  .wic2 {
+    margin-left: calc(50% - 500px);
+  }
+  .wic3 img {
+    width: 1200px;
+    max-width: 1200px;
+  }
+  .wic3 {
+    margin-left: calc(50% - 600px);
+  }
+  /*
+Header
+----------------------------------------------------------- */
+header .logo {
+  right: calc(50% + 90px);
+  padding-right: 15px;
+}
+header .logo::after {
+  position: absolute;
+  content: "";
+  right: -30px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 75px 30px 0 0;
+  border-color: #009cd6 transparent transparent transparent;
+}
+header .logo2 {
+  right: inherit;
+  left: 0;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 50%;
+}
+header .logo2::after {
+  position: absolute;
+  content: "";
+  right: -30px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 75px 30px 0 0;
+  border-color: #009cd6 transparent transparent transparent;
+}
+header .container{
+  padding-right: 0;
+}
+header .contact {
+  width: 45%;
+}
+  /*
+Nav
+----------------------------------------------------------- */
+  /*
+MV
+----------------------------------------------------------- */
+.mv{
+  overflow: hidden;
+}
+.mv img{
+  width: 140%;
+}
+  /*
+CTA
+----------------------------------------------------------- */
+.cta {
+  overflow: hidden;
+}
+.cta .container .img02 {
+  position: relative;
+  bottom: 0;
+  z-index: 1;
+  right: -410px;
+  width: 50%;
+  padding-top: 20vw;
+}
+.cta .container .img01 {
+  position: absolute;
+  top: 40px;
+  z-index: 2;
+}
+.cta .contact_box {
+  position: absolute;
+  display: flex;
+  bottom: 50px;
+  z-index: 3;
+}
+
+  /*
+CTA2
+----------------------------------------------------------- */
+  /*
+sec01
+----------------------------------------------------------- */
+  /*
+sec02
+----------------------------------------------------------- */
+.sec02{
+  padding-top: 70px;
+}
+
+  /*
+sec03
+----------------------------------------------------------- */
+.sec03 {
+  background-color: #e8e8e8;
+  padding-bottom: 80px;
+}
+  /*
+sec04
+----------------------------------------------------------- */
+.sec04 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.sec04 .tit_bg {
+  position: absolute;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  background-color: #1a97c5;
+  position: relative;
+  right: 0;
+  width: calc(100% - 100px);
+}
+.sec04 .tit_bg::after {
+  position: absolute;
+  content: "";
+  right: -70px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 130px 70px 0 0;
+  border-color: #1a97c5 transparent transparent transparent;
+}
+.sec04 .tit .container {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  left: 0;
+  width: calc(100% - 90px);
+  margin: 0 15px;
+  line-height: 1.2;
+}
+.sec04 .tit .container .spmb5 {
+  margin-bottom: 10px;
+}
+  /*
+sec05
+----------------------------------------------------------- */
+.sec05 {
+  background-color: #1a97c5;
+  padding-bottom: 60px;
+}
+.sec05 .box {
+  width: calc(100% / 2);
+}
+.sec05 .box_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.sec05 .box .txt {
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  padding: 20px;
+  font-size: 16px;
+  height: 270px;
+}
+  /*
+sec06
+----------------------------------------------------------- */
+.sec06 {
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+.sec06 .ph0.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.sec06 table {
+  width: 540px;
+}
+.sec06 .img02 {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  top: 100px;
+  width: 37%;
+}
+  /*
+sec07
+----------------------------------------------------------- */
+.sec07 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #dff6ff;
+}
+.sec07 .ph0.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+  /*
+sec08
+----------------------------------------------------------- */
+.sec08 {
+  padding: 70px 0;
+  background: url(../img/pc_sec08_bg.png) no-repeat top center;
+  background-size: cover;
+  background-position: top left -220px;
+}
+.sec08 .ph0.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+  /*
+sec09
+----------------------------------------------------------- */
+.sec09 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: url(../img/pc_sec09_bg.png) #e8e8e8 no-repeat;
+  background-position: calc(50% - -400px) bottom;
+}
+.brett ul li {
+  padding: 0;
+  text-indent: 0;
+  margin: 0;
+  font-size: 30px;
+  display: flex;
+  align-items: baseline;
+  line-height: 1.7;
+  text-shadow: 0 0 3px #e8e8e8,0 0 3px #e8e8e8,0 0 3px #e8e8e8,0 0 3px #e8e8e8,0 0 3px #e8e8e8,0 0 3px #e8e8e8,0 0 3px #e8e8e8,0 0 3px #e8e8e8,0 0 3px #e8e8e8,0 0 3px #e8e8e8,0 0 3px #e8e8e8,0 0 3px #e8e8e8,0 0 3px #e8e8e8,0 0 3px #e8e8e8,0 0 3px #e8e8e8,0 0 3px #e8e8e8;
+}
+.sec09 .brett {
+  margin-bottom: 0;
+  width: 78%;
+}
+  /*
+sec10
+----------------------------------------------------------- */
+.sec10 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.sec10 .ph0.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+  /*
+sec11
+----------------------------------------------------------- */
+.sec11 .ph0.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+  /*
+sec12
+----------------------------------------------------------- */
+.sec12 {
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+.sec12 .ph0.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+  /*
+sec13
+----------------------------------------------------------- */
+.sec13 {
+  padding-top: 70px;
+}
+.sec13 .ph0.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+  /*
+sec14
+----------------------------------------------------------- */
+.sec14 {
+  padding-top: 70px;
+  padding-bottom: 0;
+}
+.sec14 .ph0.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+  /*
+sec15
+----------------------------------------------------------- */
+.sec15 .ph0.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+  /*
+sec16
+----------------------------------------------------------- */
+.sec16{
+  padding-top: 70px;
+}
+.sec16 .ph0.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+  /*
+sec17
+----------------------------------------------------------- */
+.sec17{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.sec17 .ph0.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+  /*
+sec18
+----------------------------------------------------------- */
+.sec18{
+  padding-top: 70px;
+}
+  /*
+sec19
+----------------------------------------------------------- */
+  /*
+sec20
+----------------------------------------------------------- */
+  /*
+Footer
+----------------------------------------------------------- */
+  footer ul li {
+    margin: 0;
+  }
+  footer ul li a {
+    margin: 0;
+    padding: 0 10px;
+  }
+  footer ul li:first-child a {
+    padding-left: 0;
+  }
+footer {
+  padding: 30px 0 100px;
+}
+
+
+/*
+About
+----------------------------------------------------------- */
+#about .container {
+    width: 100%;
+}
+h1.sub-ttl {
+    margin: 0 auto 10px;
+    font-size: 16px;
+}
+#about dl {
+    font-size: 14px;
+    border: 1px solid #023180;
+}
+#about dl dt {
+padding: 10px 0;
+}
+#about dl dd {
+    padding: 10px;
+}
+
+/*
+Policy
+----------------------------------------------------------- */
+#policy .container {
+    width: 100%;
+}
+#policy p {
+    font-size: 14px;
+    line-height: 2;
+}
+#policy .policy-box {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 20px;
+    border: 1px solid #023180;
+}
+#policy .policy-box .policy-txt {
+    margin-bottom: 30px;
+}
+#policy .policy-box ul {
+    font-size: 14px;
+    line-height: 2;
+    list-style: none;
+}
+#policy .policy-box ul ul {
+    padding-left: 20px;
+}
+
+}
+
+/*タブレット用スタイルend*/
