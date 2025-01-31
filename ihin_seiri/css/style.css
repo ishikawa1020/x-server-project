@@ -645,6 +645,7 @@ sec18
   display: flex;
   flex-wrap: wrap;
 }
+
 .sec18 .table ul li{
   padding: 15px;
   display: flex;
@@ -905,5 +906,12 @@ Policy
 }
 .sp-br {
     display: block;
+}
+.baner{
+  flex-direction: column;
+  gap: 20px;
+}
+.baners{
+  width: 100% !important;
 }
 }
