@@ -648,6 +648,7 @@ sec18
 .sec18 .table ul li{
   padding: 15px;
   display: flex;
+  flex-direction: column;
 }
 .sec18 .table .table_head{
   color: #fff;
